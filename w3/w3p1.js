@@ -11,6 +11,9 @@ function digit(sum){
                 arr.unshift(sum)
                 break
             }
+            else if (i==1 && sum>=i) {
+                return "It csn't be uniqe"
+            }
         }
         const str=arr.join('')
         return str
@@ -33,6 +36,9 @@ function digits(sum) {
             if (sum<i) {
                 str+= sum
                 break
+            }
+            else if (i==1 && sum>=i) {
+                return "It csn't be uniqe"
             }
         }
         str = [...str].reverse().join("");

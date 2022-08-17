@@ -18,10 +18,8 @@ function matrix(row,col) {
                 }
                 j++
                 console.log(j);
-                if (arr[i][j]===0  ) {
-                    if (j==col-1) {
+                if (arr[i][j]===0 && j==col-1) {
                     arr[i+1][j]=1
-                    }
                    
                 }
             }
@@ -31,7 +29,4 @@ function matrix(row,col) {
         console.log("ended",arr);
     }
 }
-matrix(2,4)
-// console.log(matrix(2,2));
-// const row=2 , col=4
-// console.log(nested)
+matrix(2,2)
