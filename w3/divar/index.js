@@ -1,9 +1,7 @@
-const fs = require('fs')
+import getData, {name} from "./lib/getUserData.js"
 
-fs.readFile("text.txt", "utf-8", (data, err) => {
-    if (err) {
-        console.log(err); 
-        return
-}
-console.log(data);
-})
+// getDataModule.getData()
+// console.log(getUserDataModule.name);
+
+// setTimeout(() => { console.log("salam"); }, 50000)
+console.log("salam birun", name);
