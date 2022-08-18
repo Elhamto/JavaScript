@@ -3,7 +3,7 @@ import * as fs from "fs"
 
 const prompt = promptSync()
 
-function getData() {
+export default function getData() {
     let n = prompt('Namat ro Begu: ');
     let username = prompt("Username: ");
     let password = prompt("Password: ");
@@ -34,7 +34,7 @@ function getData() {
 }
 export const name = "eli"
 
-export default getData;
+// export default getData;
 
 // fs.readFile("text.txt", "utf-8", (data, err) => { 
 //     if(err) {

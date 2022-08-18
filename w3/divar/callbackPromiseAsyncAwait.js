@@ -50,6 +50,8 @@ async function getDataFromDivar(params) {
   }
 }
 
+getDataFromDivar(206)
+
 async function getDataFromMyServer() {
   try {
     const data = "Salam az client"
