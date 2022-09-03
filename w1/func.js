@@ -1,4 +1,3 @@
-
 function maghsumha(num){
     const result = []
     for(let i=1; i<= num/2; i++)

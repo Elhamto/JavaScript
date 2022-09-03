@@ -1,5 +1,5 @@
 
-function fibo(n) {
+function fibo(n) {      //DynamicProgramming
     let f1=1
     let f2=1
     for(let i=1; i<n; i++){

@@ -1,4 +1,3 @@
-
 const isPrime = (num) =>{
     if(num < 2)
         throw "number must be bigger than 2"
